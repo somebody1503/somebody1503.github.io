@@ -1,5 +1,15 @@
 h1 {
     font-size: 100rem;
-    color: black;
+    color: blue;
     font-family: 'Algerian', 'Courier New', Courier, monospace;
+    border-bottom: 1rem solid gray;
+    margin:0;
+    text-align: center;
+    padding: 5rem;
+}
+
+li.upside_bar {
+    font-size: 5rem;
+    color: white;
+    text-align: center;
 }
