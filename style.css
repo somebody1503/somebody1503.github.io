@@ -1,0 +1,56 @@
+/*간판 폰트*/
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@900&display=swap');
+/*카테고리 폰트*/
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Grenze+Gotisch:wght@900&display=swap');
+
+body {
+    background-color: #F6F4E6;
+    background-image: url('/someboody1503/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.upside_bar .title_bar {
+    padding-bottom: 1rem;
+}
+
+h1 {
+    font-size: 7rem;
+    text-align: center;
+    margin: 0;
+    color: #41444b;
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #52575d;
+    margin: 0;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.upside_bar .category {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+    border-bottom: 0.5rem solid #fddb3a;
+    border-top: 0.5rem solid #fddb3a;
+}
+
+.upside_bar .category .category_element {
+    padding: 0rem 1.2rem 0rem 1.2rem;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+.sns_link .facebook {
+    width: 9rem;
+}
