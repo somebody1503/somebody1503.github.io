@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>GUREST BOOK</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript">   
+            $(document).ready( function() {
+
+            $("#headers").load("header.html"); 
+            $("#footers").load("footer.html");  
+
+            });
+        </script>
+    </head>
+        
+    <body>
+        
+        <div id="headers"></div>
+
+        <h3>GUEST BOOK</h2>
+        <p>
+            <input type="button" value="Hello" onclick="alert('Hello')">
+            <input type="text" onchange="alert('CHANGED!')">
+
+        </p>
+
+        <div id="footers"></div>      
+    </body>
+</html>
