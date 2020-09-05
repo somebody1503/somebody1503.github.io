@@ -3,11 +3,9 @@
 /*카테고리 폰트*/
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Grenze+Gotisch:wght@900&display=swap');
 
-body {
+* {
     background-color: #F6F4E6;
-    background-image: url('/someboody1503/images/background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    text-decoration: none;
 }
 
 .upside_bar .title_bar {
@@ -51,6 +49,16 @@ p {
     font-family: 'Do Hyeon', sans-serif;
 }
 
-.sns_link .facebook {
-    width: 9rem;
+footer {
+    background-color: #d8d3cd;
+    margin-top: 7rem;
+}
+
+/*pet.html*/
+.imformation p {
+    line-height: 0.5rem;
+}
+
+.imformation img {
+    width: 10rem;
 }
