@@ -71,3 +71,13 @@ h3, h4, p {
 .diary p {
     text-align: left;
 }
+
+/*digital_information_gap.html*/
+.digital_context {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.digital_context p {
+    text-align: left;
+}
